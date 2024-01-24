@@ -5,12 +5,12 @@ export default function Footer() {
     <footer>
       <Container>
         <Row>
-          <Col>
+          <Col className="text-center py-2">
             <p className="text-muted">
-              &copy; 2021 - {new Date().getFullYear()} The MITRE Corporation
+              &copy; 2021 - {new Date().getFullYear()} The HOME Needs Corporation
             </p>
           </Col>
-          <Col>
+          {/* <Col>
             <a href="/privacy" target="_blank">
               Privacy Policy
             </a>
@@ -18,7 +18,7 @@ export default function Footer() {
             <a href="/terms" target="_blank">
               Terms of Use
             </a>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </footer>
