@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import products from "../../products";
-import ProductList from "../ProductList/ProductList";
+import ProductList from "../Product/ProductList/ProductList";
 import { Container } from "react-bootstrap";
 
 export default function Home() {
